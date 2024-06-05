@@ -1,0 +1,156 @@
+<html><head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #0d1117; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar
+  -thumb {
+  background: #30363d;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #444d56; 
+}
+body {
+    background-color: #0d1117;
+    color: #c9d1d9;
+    font-family: 'Comfortaa', cursive;
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+}
+header {
+    background-color: transparent;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #30363d;
+    position: relative;
+    z-index: 2;
+}
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+footer {
+    background-color: #161b22;
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid #30363d;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 1.2em;
+    z-index: 2;
+}
+footer a {
+    color: #58a6ff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+main {
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+}
+h2 {
+    color: #58a6ff;
+}
+a {
+    color: #58a6ff;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.bg-circle {
+    position: fixed;
+    top: -25%;
+    left: -25%;
+    width: 150%;
+    height: 150%;
+    z-index: -1;
+    opacity: 0.8;
+}
+.sneak-peek-container {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #161b22;
+    border-radius: 10px;
+}
+.sneak-peek-image {
+    max-width: 100%;
+    border-radius: 10px;
+}
+.sneak-peek-title {
+    color: #58a6ff;
+    margin-top: 10px;
+}
+.sneak-peek-description {
+    color: #c9d1d9;
+    margin-top: 10px;
+}
+</style>
+</head>   
+
+<body>
+
+<header>
+    <h1>Zynthrax Productions - Sneak Peeks</h1>
+</header>
+<main>
+    <div class="sneak-peek-container">
+        
+        <h2 class="sneak-peek-title">Release 1.0 (Soon!)</h2>
+            <h1>Release 1.0 (Soon!)</h1>
+    <p>Get ready for our first big update! In this version of our game, we're adding some cool stuff.</p>
+
+    <h2>What's Coming:</h2>
+    <ul>
+        <li><strong>Meet Mortis:</strong> Mortis is a character in the game who will give you missions to complete. He's like your guide through the game.</li>
+        <li><strong>Background Music:</strong> We're adding music to the game! The first track is called "Mandarin." It's awesome!</li>
+        <li><strong>Torches:</strong> You'll be able to carry torches to light up dark areas in the game. It'll make exploring more fun!</li>
+    </ul>
+
+    <h2>What's Not Coming:</h2>
+    <p>We had some ideas for the game that we decided not to include:</p>
+    <ul>
+        <li><strong>Inventory System:</strong> Originally, we thought about adding a system to keep track of all the items you collect. But we decided it would make the game too complicated.</li>
+    </ul>
+    </div>
+    <div class="sneak-peek-container">
+        <img class="sneak-peek-image" src="https://placehold.jp/500x500.png" alt="Sneak Peek 2">
+        <h2 class="sneak-peek-title">Sneak Peek 2 Title</h2>
+        <p class="sneak-peek-description">Description for Sneak Peek 2...</p>
+    </div>
+    <div class="sneak-peek-container">
+        <img class="sneak-peek-image" src="https://placehold.jp/500x500.png" alt="Sneak Peek 3">
+        <h2 class="sneak-peek-title">Sneak Peek 3 Title</h2>
+        <p class="sneak-peek-description">Description for Sneak Peek 3...</p>
+    </div>
+</main>
+<footer>
+    2024 Zynthrax Productions - Not a Corporation
+    <nav>
+        <a href="/">/home</a>
+        <a href="/wiki">/wiki</a>
+        <a href="/spoil">/sneakpeaks</a>
+    </nav>
+</footer>
+<svg class="bg-circle" viewBox="0 0 100 100">
+    <circle cx="50" cy="50" r="30" fill="#142d4c" filter="url(#blur1)"></circle>
+</svg>
+</body></html>
