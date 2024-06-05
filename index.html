@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zynthrax Productions</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&display=swap">
+    <style>
+        body {
+            background-color: #0d1117;
+            color: #c9d1d9;
+            font-family: 'Comfortaa', cursive;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        header {
+            background-color: transparent;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 1px solid #30363d;
+            position: relative;
+            z-index: 2;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+        footer {
+            background-color: #161b22;
+            padding: 10px;
+            text-align: center;
+            border-top: 1px solid #30363d;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            font-size: 1.2em;
+            z-index: 2;
+        }
+        footer a {
+            color: #58a6ff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 20px;
+            position: relative;
+            z-index: 1;
+        }
+        h2 {
+            color: #58a6ff;
+        }
+        a {
+            color: #58a6ff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .bg-circle {
+            position: fixed;
+            top: -25%;
+            left: -25%;
+            width: 150%;
+            height: 150%;
+            z-index: -1;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Zynthrax Productions</h1>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Welcome to Zynthrax Productions</h2>
+            <p>We are Zynthrax and Wabble, the duo behind Zynthrax Productions. We're dedicated to creating unique and exciting games, and we're excited to share our journey with you.</p>
+        </section>
+        <section id="projects">
+            <h2>Our Projects</h2>
+            <h3>Untitled Frog Series</h3>
+            <p>Our main project right now is the Untitled Frog Series. This will be a series of games where you play the role of Wabble McDibs, the frog. We brainstormed the game series's name over discussing Robux. Get ready for a wild ride filled with adventure, challenges, and plenty of froggy fun. Stay tuned for updates, sneak peeks, and more as we get closer to release.</p>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We're a small team of game developers passionate about bringing our creative visions to life. We might be small, but we're committed to making a big impact in the gaming world.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Stay tuned. We'll be dropping leaks and updates on our website at <a href="https://zynthr4x.github.io">zynthr4x.github.io</a>. Stay connected and watch this space for more updates.</p>
+        </section>
+    </main>
+    <footer>
+        2024 Zynthrax Productions - Not a Corporation
+        <nav>
+            <a href="#home">/home</a>
+            <a href="#wiki">/wiki</a>
+            <a href="#sneakpeaks">/sneakpeaks</a>
+        </nav>
+    </footer>
+    <svg class="bg-circle" viewBox="0 0 100 100">
+        <circle cx="50" cy="50" r="30" fill="#142d4c" filter="url(#blur1)"/>
+    </svg>
+    <svg class="bg-circle" viewBox="0 0 100 100">
+        <circle cx="40" cy="40" r="20" fill="#1a4229" filter="url(#blur2)"/>
+    </svg>
+    <svg class="bg-circle" viewBox="0 0 100 100">
+        <circle cx="70" cy="70" r="40" fill="#421820" filter="url(#blur3)"/>
+    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg">
+        <filter id="blur1">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="5"/>
+        </filter>
+        <filter id="blur2">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="3"/>
+        </filter>
+        <filter id="blur3">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="6"/>
+        </filter>
+    </svg>
+</body>
+</html>
